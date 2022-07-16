@@ -1,6 +1,6 @@
 function easyTabs(){
   hora();
-  easyTabs1();
+  easyTabs1(); 
 }
 
 function allowDrop(ev) {

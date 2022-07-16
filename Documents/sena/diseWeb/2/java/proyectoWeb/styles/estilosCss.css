@@ -2,7 +2,7 @@ header{
     background-color: rgb(187, 145, 89);
     margin: auto;
     padding: auto;
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 
