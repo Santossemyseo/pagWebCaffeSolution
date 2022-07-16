@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="./styles/estilosInventario.css">
+    <script src="./js/funcionInventario.js"></script>
+</head>
+
+<body onload='onchar()'>
+    <header>
+        <h1>
+            INVENTARIO
+        </h1>
+    </header>
+    <nav>
+        <button onclick="restaurar()">Restart</button>
+    </nav>
+    <section>
+        <ul id="fhather">
+            <li id="insumo" class="ilc" index="1">Ingreso de insumos </br>
+                <img src="./images/coffeepops.png" alt="" class="icon">
+            </li>
+            <li id="invdiario" class="ilc" index="2">Inventario diario </br>
+                <img src="./images/inventoryimg.png" alt="" class="icon">
+            </li>
+            <li id="reporte" class="ilc" index="3">Reportes </br>
+                <img src="./images/reports.png" alt="" class="icon">
+            </li>
+            <li id="newuser" class="ilc" index="4">Nuevo usuario </br>
+                <img src="./images/user.png" alt="" class="icon">
+            </li>
+            <li id="devolucion" class="ilc" index="5">Devoluciones </br>
+                <img src="./images/returns.png" alt="" class="icon">
+            </li>
+            <li id="proveedor" class="ilc" index="6">Proveedores </br>
+                <img src="./images/supplier.png" alt="" class="icon">
+            </li>
+            <li id="product" class="ilc" index="7">Productos </br>
+                <img src="./images/coffee.png" alt="" class="icon">
+            </li>
+            <li id="cliente" class="ilc" index="8">Clientes </br>
+                <img src="./images/customer.png" alt="" class="icon">
+            </li>
+            <li id="otro" class="ilc" index="9">Otros </br>
+                <img src="./images/configuratios.png" alt="" class="icon">
+            </li>
+        </ul>
+    </section>
+
+    <div id="forms">
+        <form action="" class="firma" index="1">
+            <p> Producto: </p><input type="text">
+            <p>Cantidad: </p><input type="number">
+            <p>Proveedor: </p><input type="text">
+            <p>comentarios: </p><input type="text">
+            <button>Ingresar</button>
+        </form>
+
+        <form action="" class="firma" index="2">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto:</p> <input type="number">
+            <p>Producto:</p> <input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+            <p>Producto: </p><input type="number">
+
+        </form>
+
+        <form action="" class="firma" index="3">
+            <p> Desde:</p> <input type="date" name="" id="">
+            <p> Hasta: </p><input type="date" name="" id="">
+            <p> Objetivo: </p><input type="text">
+            <button>Buscar</button>
+        </form>
+
+        <form action="" class="firma" index="4">
+            <p> Nombre: </p><input type="text">
+            <p> Rol: </p><input type="text">
+            <p> Celular: </p> <input type="number">
+            <p> id.: </p> <input type="number">
+            <p> Fecha de nacimiento: </p> <input type="date" name="" id="">
+            <p> Direccion:</p> <input type="text">
+
+        </form>
+
+        <form action="" class="firma" index="5">
+            <p> Producto: </p> <input type="text">
+            <p> Proveedor: </p> <input type="text">
+            <p> motivo: </p> <input type="text">
+        </form>
+
+        <form action="" class="firma" index="6">
+            <p> Proveedor: </p> <input type="text">
+            <p> NIT:</p> <input type="number">
+            <p> Celular:</p> <input type="number">
+            <p> id.:</p> <input type="number">
+            <p>Fecha de nacimiento:</p> <input type="date" name="" id="">
+            <p>Direccion: </p> <input type="text">
+        </form>
+
+        <form action="" class="firma" index="7">
+            <p> Provducto:</p> <input type="text">
+            <p> NIT: </p> <input type="number">
+            <p> Celular: </p> <input type="number">
+            <p> id.: </p> <input type="number">
+            <p> Fecha de nacimiento: </p> <input type="date" name="" id="">
+            <p> Direccion: </p> <input type="text">
+        </form>
+
+        <form action="" class="firma" index="8">
+            <p> Cliente:</p> <input type="text">
+            <p> NIT: </p> <input type="number">
+            <p> Celular: </p> <input type="number">
+            <p>id.:</p> <input type="number">
+            <p> Fecha de nacimiento:</p> <input type="date" name="" id="">
+            <p> Direccion: </p> <input type="text">
+        </form>
+
+        <form action="" class="firma" index="9">
+            <p>Otros: </p> <input type="text">
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
