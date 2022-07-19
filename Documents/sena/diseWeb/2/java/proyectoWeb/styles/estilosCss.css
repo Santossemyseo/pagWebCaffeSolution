@@ -9,10 +9,10 @@ header{
 #main_logo{
     height: 10%;
     width: 10%;
-    float: left;
+    /* float: left; */
     margin: auto;
     padding: auto;
-   
+    align-content: center;   
 }
 
 h1{
