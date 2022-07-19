@@ -3,7 +3,7 @@ header{
     /* margin: auto; */
     /* padding: auto; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #main_logo{
@@ -15,16 +15,16 @@ header{
 }
 
 h1{
-    float: left;   
-    background-color: aqua;
+    float: left;
+    color: #fff;
+    /* background-color: aqua; */
     
 }
 
 .navegador{
-    float: right;
+    float: center;
     list-style: none;
-    background-color: beige;
-    
+    /* background-color: beige; */
 }
 
 nav a{
