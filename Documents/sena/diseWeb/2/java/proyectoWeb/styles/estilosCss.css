@@ -12,11 +12,8 @@ header{
 
 h1{
     color: #fff;
-    padding:10px 60px 
 }
-.navegador{
-    padding:10px 60px 
-}
+
 nav a{
     text-decoration:none;
     color:inherit;
