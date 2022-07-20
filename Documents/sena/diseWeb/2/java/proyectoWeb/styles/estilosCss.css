@@ -1,53 +1,29 @@
 header{
     background-color: rgb(187, 145, 89);
-    margin: auto;
-    padding: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-#headn{
-    
-}
-
-#main_logo{
+#logo{
     height: 10%;
     width: 10%;
-    float: left;
-    margin-left: 3%;
-   
 }
 
 h1{
-    float: left;   
-    background-color: aqua;
-    
-}
-
-.navegador{
-    float: right;
-    list-style: none;
-    background-color: beige;
-    
+    color: #fff;
 }
 
 nav a{
     text-decoration:none;
     color:inherit;
-    font-size:14px;
+    font-size:20px;
     } 
 
 nav li{
     display:inline-block;
     width:auto;
-    padding:5px 10px;
-    background-color:#000;
+    padding:1px 10px;
     border:1px solid #000;
-    text-align:center;
-    color:#fff;
-    border-radius:3px ;
+    border-radius:5px ;
     }
-.buscador{
-    float: right;
-    background-color: blanchedalmond;
-}

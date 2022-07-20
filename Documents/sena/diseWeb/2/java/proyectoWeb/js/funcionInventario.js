@@ -1,6 +1,6 @@
 'use strict'
 
-function onchar(){
+function onchar(){ 
     easyform();
 }
 
