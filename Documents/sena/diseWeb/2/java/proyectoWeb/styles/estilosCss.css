@@ -15,14 +15,14 @@ header{
 h1{
     float: left;
     color: #fff;
-    /* background-color: aqua; */
+    padding:10px 60px 
     
 }
 
 .navegador{
     float: center;
     list-style: none;
-    /* background-color: beige; */
+    padding:10px 60px 
 }
 
 nav a{
@@ -41,10 +41,3 @@ nav li{
     /* color:#fff; */
     border-radius:5px ;
     }
-.buscador{
-    float: right;
-    background-color: blanchedalmond;
-}
-.table{
-    align-content: center;
-}
